@@ -25,7 +25,8 @@ a=4
 
 文件夹：
 
-![image-20220621165901257](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621165901257.png)
+![image](https://user-images.githubusercontent.com/65967643/174789896-0ba1ddf4-8589-4f50-8e24-fd9220d1b90b.png)
+
 
 共11个
 
@@ -45,7 +46,7 @@ SE_test_processed,SE_train_processed：存放预处理后的SE切片
 
 work_file：存放我们写的文件
 
-![image-20220621191949429](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621191949429.png)
+![image](https://user-images.githubusercontent.com/65967643/174789950-efd2add9-036b-49ff-b12a-89c9f9d4c519.png)
 
 主要包括CNN，不包含刺激参数的CNN，用MIC研究功能连接性的模块，处理excel文件的模块，常规数据处理模块，SE切片获取的模块，按人获取SE切片的模块，SE切片预处理模块
 
