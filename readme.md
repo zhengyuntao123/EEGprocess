@@ -25,7 +25,7 @@ a=4
 
 文件夹：
 
-![image-20220621165901257](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621165901257.png)
+![image-20220621165901257](https://raw.githubusercontent.com/zhengyuntao123/myImg/master/202206221716545.png)
 
 共11个
 
@@ -45,7 +45,7 @@ SE_test_processed,SE_train_processed：存放预处理后的SE切片
 
 work_file：存放我们写的文件
 
-![image-20220621191949429](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621191949429.png)
+![image-20220621191949429](https://raw.githubusercontent.com/zhengyuntao123/myImg/master/202206221715418.png)
 
 主要包括CNN，不包含刺激参数的CNN，用MIC研究功能连接性的模块，处理excel文件的模块，常规数据处理模块，SE切片获取的模块，按人获取SE切片的模块，SE切片预处理模块
 
@@ -117,7 +117,7 @@ xls：对应EEG_MIC_module输出的xls文件目录
 
 1、直接将第二批数据和第一批数据放入“治疗脑电”文件夹，一起读入
 
-![image-20220622144918759](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220622144918759.png)
+![image-20220622144918759](https://raw.githubusercontent.com/zhengyuntao123/myImg/master/202206221715318.png)
 
 2、加入第二批数据后共有48人，选择40人作为训练集
 
