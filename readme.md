@@ -25,8 +25,7 @@ a=4
 
 文件夹：
 
-![image](https://user-images.githubusercontent.com/65967643/174789896-0ba1ddf4-8589-4f50-8e24-fd9220d1b90b.png)
-
+![image-20220621165901257](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621165901257.png)
 
 共11个
 
@@ -46,7 +45,7 @@ SE_test_processed,SE_train_processed：存放预处理后的SE切片
 
 work_file：存放我们写的文件
 
-![image](https://user-images.githubusercontent.com/65967643/174789950-efd2add9-036b-49ff-b12a-89c9f9d4c519.png)
+![image-20220621191949429](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220621191949429.png)
 
 主要包括CNN，不包含刺激参数的CNN，用MIC研究功能连接性的模块，处理excel文件的模块，常规数据处理模块，SE切片获取的模块，按人获取SE切片的模块，SE切片预处理模块
 
@@ -104,7 +103,31 @@ xls：对应EEG_MIC_module输出的xls文件目录
 
 
 
+# 2022.6.22
 
+## 修改
 
+### excel_process
 
+1、适配了第二批病人数据
+
+2、第二批病人数据缺少性别和年龄
+
+## SE_get_person
+
+1、直接将第二批数据和第一批数据放入“治疗脑电”文件夹，一起读入
+
+![image-20220622144918759](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20220622144918759.png)
+
+2、加入第二批数据后共有48人，选择40人作为训练集
+
+## SE_pretreatment
+
+1、改成了16通道
+
+## CNN
+
+1、改成了16通道
+
+2、增加了Dropout层
 
