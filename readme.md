@@ -113,7 +113,7 @@ xls：对应EEG_MIC_module输出的xls文件目录
 
 2、第二批病人数据缺少性别和年龄
 
-## SE_get_person
+### SE_get_person
 
 1、直接将第二批数据和第一批数据放入“治疗脑电”文件夹，一起读入
 
@@ -121,13 +121,42 @@ xls：对应EEG_MIC_module输出的xls文件目录
 
 2、加入第二批数据后共有48人，选择40人作为训练集
 
-## SE_pretreatment
+### SE_pretreatment
 
 1、改成了16通道
 
-## CNN
+### CNN
 
 1、改成了16通道
 
 2、增加了Dropout层
 
+
+
+# 2022.6.26
+
+## 修改
+
+### SE_get_person
+
+1、修改读取数据为指定15个通道读取：Fp1,Fp2, F3,F4, C3,C4,P3,P4,O1,O2,T3,T4,T5,T6,Cz
+
+2、发现医生的两批数据通道命名有略微差别，望改进
+
+![image-20220626155630903](https://raw.githubusercontent.com/zhengyuntao123/myImg/master/202206261556009.png)
+
+### SE_get
+
+1、仿照SE_get_person做了对应修改，但显然SE_get还有01平衡，第二批数据等没有改进
+
+### SE_pretreatment
+
+1、修改为15通道
+
+### CNN
+
+1、修改为15通道
+
+### CNN_no+parameter
+
+1、修改为15通道
