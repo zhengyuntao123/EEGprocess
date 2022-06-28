@@ -10,6 +10,16 @@
 #这是一行注释
 a=4
 ```
+# 2022.6.28
+## 整合第二批次数据的模型更新
+
+CNN结构没有调整，为原始的3卷积+3全连接
+
+第二批数据的效果不好，待议
+
+标签基于文件中有无start标记，重命名文件,后在CNN中进行打标
+
+数据的处理步骤为：normal_data_process  --> excel_process --> SE_get_person --> pretreatment -->CNN
 
 # 2022.6.21
 
